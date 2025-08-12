@@ -1,8 +1,19 @@
 // no script tag needed here
 
-let age = 14
-let maxAge = 100
-let numPerDay = 1
+let age = window.prompt("Enter your age ")
+let maxAge = window.prompt("Enter your maxAge")
+let numPerDay = window.prompt("Enter your Number Per Day")
+
 totalRequired = (numPerDay * 365) * (maxAge - age);
 
-document.write(" You will need " + totalRequired + " Cheeseburgers to last you until the ripe of old age " + maxAge)// no script tag needed here
+if (confirm(`Is everything correct`)){
+    console.log(document.write(" You will need " + totalRequired + " Cheeseburgers to last you until the ripe of old age " + maxAge))
+}else{
+    document.write("Run the code again")
+}
+
+
+
+
+        
+        
