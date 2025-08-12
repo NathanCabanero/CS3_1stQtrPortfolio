@@ -1,5 +1,5 @@
-// no script tag needed here
 
+   
 let age = window.prompt("Enter your age ")
 let maxAge = window.prompt("Enter your maxAge")
 let numPerDay = window.prompt("Enter your Number Per Day")
@@ -11,6 +11,8 @@ if (confirm(`Is everything correct`)){
 }else{
     document.write("Run the code again")
 }
+
+
 
 
 
