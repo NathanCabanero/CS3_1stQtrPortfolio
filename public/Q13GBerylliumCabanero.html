@@ -22,10 +22,10 @@
               
             let Guess = document.getElementById("Guess").value  
 
-            if (dNumber-Guess >=0) {
+            if (dNumber > Guess) {
                 result.innerHTML = "<b> Result: Higher </b>";
             }
-            else if (dNumber-Guess<=0) {
+            else if (dNumber < Guess<=0) {
                 result.innerHTML = "<b> Result: Lower </b>";
             }
             else {
